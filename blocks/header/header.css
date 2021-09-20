@@ -1,0 +1,41 @@
+.header {
+    background: #240000 center no-repeat;
+    background-image: url(../../images/header.png);
+    background-size: cover;
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content max-content max-content min-content;
+    color: #fff;
+    text-align: center;
+    padding: 60px 100px;
+    box-sizing: border-box;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+    gap: 60px;
+}
+
+@media all and (max-width: 1500px)  {
+    .header {
+        padding: 40px 90px;
+    }
+}
+
+@media all and (max-width: 1200px)  {
+    .header {
+        padding: 40px 60px;
+    }
+}
+
+@media all and (max-width: 800px)  {
+    .header {
+        padding: 40px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .header {
+        padding: 20px 20px 10px;
+    }
+}

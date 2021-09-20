@@ -1,0 +1,31 @@
+.program__title {
+    margin-block-start: 45px;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    max-width: 900px;
+    text-align: center;
+    color: #240000;
+}
+
+@media all and (max-width: 1500px)  {
+    .program__title {
+        margin-block-start: 35px;
+    }
+}
+@media all and (max-width: 900px)  {
+    .program__title {
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .program__title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

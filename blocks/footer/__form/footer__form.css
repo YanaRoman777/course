@@ -1,0 +1,6 @@
+.footer__form {
+    justify-self: center;
+    display: grid;
+    justify-items: end;
+    width: 100%;
+}

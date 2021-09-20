@@ -1,0 +1,51 @@
+.benefits__ul {
+    display: inline-block;
+    width: 100%;
+    margin-block-start: 30px;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: none;
+    box-shadow: 10px 10px 10px  rgba(73, 0, 0, 0.9);
+    justify-self: end;
+    border-radius: 40px;
+}
+
+@media all and (max-width: 1500px)  {
+    .benefits__ul {
+        padding: 30px 40px;
+        margin-block-start: 30px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+
+@media all and (max-width: 1200px)  {
+    .benefits__ul {
+        font-size: 20px;
+        line-height: 28px;
+        padding: 25px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .benefits__ul {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 20px;
+        border-radius: 30px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .benefits__ul {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 15px;
+        border-radius: 20px;
+    }
+}

@@ -1,0 +1,9 @@
+.link__tel{
+    grid-area: tel;
+}
+
+@media all and (max-width: 500px)  {
+    .link__tel span {
+        display: none;
+    }
+}

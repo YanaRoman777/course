@@ -1,0 +1,42 @@
+.for__paragraph {
+}
+.for__paragraph {
+    grid-area: paragraph;
+    display: inline-block;
+    margin-block-start: 0px;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    justify-self: start;
+    text-align: start;
+}
+
+@media all and (max-width: 1500px)  {
+    .for__paragraph{
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+@media all and (max-width: 1200px)  {
+    .for__paragraph{
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .for__paragraph{
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .for__paragraph{
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

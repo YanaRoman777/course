@@ -1,0 +1,5 @@
+.form__submit_inactive {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(20, 54, 68, 0.3);
+    color: #000;
+}

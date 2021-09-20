@@ -1,0 +1,16 @@
+.quote {
+    background: #240000 center no-repeat;
+    background-image: url(../../images/header.png);
+    background-size: cover;
+    max-width: 1920px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content max-content;
+    color: #fff;
+    padding: 60px 100px;
+    box-sizing: border-box;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+}

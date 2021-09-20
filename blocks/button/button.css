@@ -1,0 +1,32 @@
+.button {
+    width: 369px;
+    height: 54px;
+    border: none;
+    border-radius: 30px;
+    background-color: #fcb000;
+    box-shadow: 5px 5px 18px rgba(255, 244, 84, 0.8);
+    border-color: transparent;
+    border-style: solid;
+    justify-self: center;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    text-decoration: none;
+    padding-top: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    justify-self: center;
+}
+
+.button:hover {
+    width: 373px;
+    height: 56px;
+    border: none;
+    background-color: #fcbc26;
+    font-size: 18px;
+    line-height: 24px;
+    cursor:pointer;
+}
+.footer__form .button {
+    width: 100%;
+}

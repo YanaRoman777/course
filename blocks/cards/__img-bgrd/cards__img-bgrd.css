@@ -1,0 +1,9 @@
+.cards__img-bgrd{
+    position: absolute;
+    margin: auto;
+    width: 1px;
+    height: 1px;
+    background-color: rgba(255, 244, 84, 0.5);
+    box-shadow: 40px 40px 40px 40px rgba(255, 255, 84, 0.6);
+    z-index: 0;
+}

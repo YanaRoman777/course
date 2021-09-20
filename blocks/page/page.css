@@ -1,0 +1,9 @@
+.page {
+  margin: 0 auto;
+  font-family: 	'Proxima Nova', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background: #fff;
+  color: #000;
+  max-width: 1920px;
+}

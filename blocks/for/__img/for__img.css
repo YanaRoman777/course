@@ -1,0 +1,6 @@
+.for__img {
+    width: 80px;
+    grid-area: img;
+    align-self: center;
+    justify-self: center;
+}

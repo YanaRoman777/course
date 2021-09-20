@@ -1,0 +1,30 @@
+.price__button {
+    justify-self: center;
+    padding-top: 5px;
+    padding: 5px;
+    width: 300px;
+    height: 64px;
+    border: none;
+    border-radius: 30px;
+    background-color: #fcb000;
+    box-shadow: 5px 5px 18px rgba(255, 244, 84, 0.8);
+    border: none;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.price__button strike {
+    display: block;
+    opacity: 0.8;
+}
+
+.price__button:hover {
+    width: 373px;
+    height: 56px;
+    border: none;
+    background-color: #fcbc26;
+    cursor:pointer;
+}

@@ -1,0 +1,10 @@
+.price__item {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content 1fr min-content;
+    background: none;
+    min-height: 600px;
+    color: #fff;
+    box-sizing: border-box;
+    gap: 30px;
+}

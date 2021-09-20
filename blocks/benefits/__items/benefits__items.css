@@ -1,0 +1,28 @@
+.benefits__items {
+    justify-self: end;
+    justify-items: end;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 797px;
+}
+@media all and (max-width: 1500px)  {
+    .benefits__items {
+        max-width: 590px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .benefits__items {
+        margin-top: 5px;
+        justify-content: end;
+        max-width: 397px;
+    }
+}
+@media all and (max-width: 500px)  {
+    .benefits__items {
+        max-width: 297px;
+    }
+}@media all and (max-width: 400px)  {
+    .benefits__items {
+        max-width: 270px;
+    }
+}

@@ -1,0 +1,13 @@
+.block_links {
+  margin-bottom: 50px;
+}
+
+@media all and (max-width: 800px)  {
+  .block_links {
+  }
+}
+
+@media all and (max-width: 500px)  {
+  .block_links {
+  }
+}

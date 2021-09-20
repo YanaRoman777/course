@@ -1,0 +1,40 @@
+.quote__title {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content max-content;
+    margin-block-start: 45px;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    width: 100%;
+    justify-content: space-between;
+}
+.quote__title q {
+    justify-self: start;
+}
+
+.quote__title em {
+    justify-self: end;
+}
+
+@media all and (max-width: 1500px)  {
+    .quote__title {
+        margin-block-start: 35px;
+    }
+}
+@media all and (max-width: 900px)  {
+    .quote__title {
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .quote__title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

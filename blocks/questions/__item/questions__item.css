@@ -1,0 +1,10 @@
+.questions__item {
+    justify-self: start;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    width: 100%;
+}
+.questions__item:last-of-type {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,35 @@
+.footer {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    background: #240000;
+    color: #fff;
+    padding: 40px 120px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+@media all and (max-width: 1500px)  {
+    .footer {
+        padding: 40px 90px;
+    }
+}
+
+@media all and (max-width: 1200px)  {
+    .footer {
+        padding: 40px 60px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .footer {
+        padding: 40px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .footer {
+        margin-top: 0px;
+        padding: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+}

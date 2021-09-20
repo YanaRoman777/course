@@ -1,0 +1,26 @@
+.footer__paragraph {
+    margin-block-start: 30px;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+}
+
+@media all and (max-width: 800px)  {
+    .footer__paragraph{
+        font-size: 17px;
+        line-height: 20px;
+    }
+}
+@media all and (max-width: 500px)  {
+    .footer__paragraph  {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}

@@ -1,0 +1,33 @@
+.description {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 40px 120px;
+    box-sizing: border-box;
+    background: linear-gradient(
+    140deg, rgba(36, 0, 0, .2) 10%, rgba(255, 255, 255, .05) 99%);
+    color: #240000;
+    justify-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+@media all and (max-width: 1500px)  {
+    .description {
+        padding: 40px 90px;
+    }
+}
+@media all and (max-width: 1200px)  {
+    .description {
+        padding: 40px 60px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .description {
+        padding: 40px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .description {
+        padding: 20px 20px 10px;
+    }
+}

@@ -1,0 +1,51 @@
+.author__paragraph {
+    margin-block-start: 40px;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #240000;
+    max-width: 570px;
+    z-index: 3;
+}
+
+.author__paragraph:first-of-type {
+    margin-block-start: 100px;
+}
+.author__paragraph:nth-of-type(2) {
+    max-width: 770px;
+}
+.author__paragraph:last-of-type {
+    max-width: 100%;
+}
+
+@media all and (max-width: 1500px)  {
+    .author__paragraph {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .author__paragraph:nth-of-type(2) {
+        max-width: 670px;
+    }
+}
+@media all and (max-width: 1200px)  {
+    .author__paragraph {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .author__paragraph{
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .author__paragraph{
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

@@ -1,0 +1,27 @@
+.consultation__title {
+    margin-block-start: 0px;
+    margin-block-end: 20px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    width: 800px;
+    text-align: center;
+}
+@media all and (max-width: 1500px)  {
+    .consultation__title {
+        margin-block-start: 35px;
+    }
+}
+@media all and (max-width: 900px)  {
+    .consultation__title {
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .consultation__title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

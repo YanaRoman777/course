@@ -1,0 +1,39 @@
+.program {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 40px 120px;
+    box-sizing: border-box;
+    justify-content: center;
+    justify-items: center;
+    gap: 40px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content 1fr;
+    padding: 40px 120px;
+    box-sizing: border-box;
+    justify-content: center;
+    justify-items: center;
+}
+@media all and (max-width: 1500px)  {
+    .program {
+        padding: 40px 90px;
+    }
+}
+@media all and (max-width: 1200px)  {
+    .program {
+        padding: 40px 60px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .program {
+        padding: 40px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .program {
+        padding: 20px 20px 10px;
+    }
+}

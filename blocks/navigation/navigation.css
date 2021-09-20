@@ -1,0 +1,18 @@
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    max-width: 920px;
+    justify-content: center;
+}
+
+@media all and (max-width: 500px)  {
+    .footer .navigation {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr min-content;
+        gap: 4px;
+        justify-content: center;
+        text-align: center;
+    }
+}

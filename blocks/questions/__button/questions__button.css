@@ -1,0 +1,20 @@
+.questions__button {
+    width: 20px;
+    height: 12px;
+    background: url(../../../images/Path_up.svg) center no-repeat;
+    border: none;
+    background-size:contain;
+}
+
+.questions__button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+@media all and (max-width: 900px)  {
+    .questions__button {
+        background-size: 95%;
+        width: 14px;
+        height: 7px;
+    }
+}

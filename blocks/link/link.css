@@ -1,0 +1,36 @@
+.link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin-right: 30px;
+}
+
+.footer__blook-description .link, .block_links .link {
+    text-decoration: underline;
+    margin-block-start: 10px;
+}
+.link:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+@media all and (max-width: 1200px)  {
+    .link {
+    }
+}
+
+@media all and (max-width: 800px)  {
+    .link {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .link {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

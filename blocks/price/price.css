@@ -1,0 +1,25 @@
+.price {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background: none;
+    min-height: 600px;
+    padding: 60px 0;
+    box-sizing: border-box;
+    gap: 60px;
+}
+@media all and (max-width: 1500px)  {
+    .price {
+        padding: 40px 0px;
+    }
+}
+@media all and (max-width: 1200px)  {
+    .price {
+        padding: 40px 0px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .price {
+        padding: 40px 0;
+    }
+}

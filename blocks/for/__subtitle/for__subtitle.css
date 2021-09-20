@@ -1,0 +1,36 @@
+.for__subtitle {
+    grid-area: subtitle;
+    margin-block-start: 20px;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    color: #240000;
+    justify-self: start;
+    text-align: start;
+}
+
+@media all and (max-width: 1200px)  {
+    .for__subtitle {
+        font-size: 28px;
+        line-height: 28px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .for__subtitle{
+        font-size: 24px;
+        line-height: 24px;
+        margin-block-start: 15px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .for__subtitle{
+        max-width: 100%;
+        font-size: 20px;
+        line-height: 21px;
+        margin-block-start: 10px;
+    }
+}

@@ -1,0 +1,41 @@
+.author {
+    margin-top: -1px;
+    background: linear-gradient(
+    70deg,  rgba(255, 255, 255, .3) 0%, rgba(36, 0, 0, 1) 100%);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content max-content max-content max-content;
+    color: #240000;
+    padding: 60px 100px;
+    box-sizing: border-box;
+    justify-content: start;
+    justify-items: start;
+    align-self: center;
+    gap: 20px;
+    position: relative;
+    min-height: 850px;
+}
+
+@media all and (max-width: 1500px)  {
+    .author {
+        padding: 40px 90px;
+    }
+}
+
+@media all and (max-width: 1200px)  {
+    .author {
+        padding: 40px 60px;
+    }
+}
+
+@media all and (max-width: 800px)  {
+    .author {
+        padding: 40px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .author {
+        padding: 20px 20px 10px;
+    }
+}
