@@ -1,16 +1,18 @@
 .program__item {
+    display: grid;
+    grid-template-rows:  100px 1fr 100px;
     position: relative;
     max-width: 600px;
-}
-.program__item:nth-of-type(1), .program__item:nth-of-type(4), .program__item:nth-of-type(7) {
-    justify-self: start;
-}
-.program__item:nth-of-type(2), .program__item:nth-of-type(5) {
-    justify-self: center;
-}
-.program__item:nth-of-type(3), .program__item:nth-of-type(6) {
-    justify-self: end;
+    min-height: 350px;
+    box-shadow: 2px 2px 8px rgba(124, 119, 41, 0.8);
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+    background: #fff;
+    align-content: end;
 }
 .program__item:last-of-type {
-    max-width: 100%;
+    grid-template-rows: 1fr;
+    height: 100%;
 }

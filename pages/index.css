@@ -26,7 +26,9 @@
 @import url(../blocks/program/__title/program__title.css);
 @import url(../blocks/program/__item/program__item.css);
 @import url(../blocks/program/__paragraph/program__paragraph.css);
+@import url(../blocks/program/__items/program__items.css);
 @import url(../blocks/program/__li/program__li.css);
+@import url(../blocks/program/__ul/program__ul.css);
 @import url(../blocks/program/__number/program__number.css);
 @import url(../blocks/benefits/benefits.css);
 @import url(../blocks/benefits/__title/benefits__title.css);

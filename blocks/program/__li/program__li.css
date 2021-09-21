@@ -4,33 +4,32 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 22px;
+    line-height: 25px;
     color: #240000;
 }
 
 @media all and (max-width: 1500px)  {
     .program__li{
-        font-size: 22px;
-        line-height: 30px;
+        font-size: 20px;
+        line-height: 23px;
     }
 }
 @media all and (max-width: 1200px)  {
     .program__li{
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 18px;
+        line-height: 21px;
     }
 }
 @media all and (max-width: 800px)  {
     .program__li{
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 19px;
     }
 }
 
 @media all and (max-width: 500px)  {
     .program__li{
         font-size: 14px;
-        line-height: 21px;
     }
 }
