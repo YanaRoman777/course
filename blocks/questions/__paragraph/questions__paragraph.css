@@ -1,4 +1,5 @@
 .questions__paragraph  {
+    display: none;
     margin-block-start: 10px;
     margin-block-end: 0;
     margin-inline-start: 0px;

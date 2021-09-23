@@ -9,6 +9,7 @@
     line-height: 65px;
     text-transform: uppercase;
     justify-self: center;
+    text-align: center;
     color: #fcb000;
 }
 
@@ -27,8 +28,7 @@
 @media all and (max-width: 800px)  {
     .header__title {
         margin-block-start: 50px;
-        text-align: center;
-        font-size: 35px;
+        font-size: 45px;
         line-height: 40px;
     }
 }
@@ -36,7 +36,7 @@
 @media all and (max-width: 600px)  {
     .header__title {
         margin-block-start: 30px;
-        font-size: 30px;
-        line-height: 33px;
+        line-height: 63px;
+        max-width: 300px;
     }
 }

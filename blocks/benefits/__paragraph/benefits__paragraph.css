@@ -14,6 +14,7 @@
     box-shadow: 10px 10px 10px rgba(73, 0, 0, 0.9);
     justify-self: end;
     border-radius: 40px;
+    width: 100%;
 }
 
 @media all and (max-width: 1500px)  {

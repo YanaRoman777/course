@@ -30,6 +30,7 @@
 
 @media all and (max-width: 500px)  {
     .description__subtitle{
+        margin-block-start: 10px;
         font-size: 14px;
         line-height: 21px;
     }

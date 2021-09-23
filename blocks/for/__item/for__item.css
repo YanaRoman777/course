@@ -1,7 +1,7 @@
 .for__item {
     display: grid;
     grid-template-columns: min-content 1fr ;
-    grid-template-rows: min-content min-content min-content;
+    grid-template-rows: min-content min-content;
     grid-template-areas: 
     "img subtitle"
     "img paragraph";
@@ -14,4 +14,24 @@
 }
 .for__item:first-of-type {
     margin-top: 0;
+}
+
+@media all and (max-width: 800px)  {
+    .for__item {
+        gap: 20px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .for__item {
+        margin-top: 45px;
+        padding: 0px;
+        gap: 15px;
+        grid-template-columns:  1fr ;
+        grid-template-rows: min-content min-content min-content;
+        grid-template-areas: 
+        "subtitle" 
+        "img"
+        "paragraph";
+    }
 }

@@ -30,7 +30,11 @@
 
 @media all and (max-width: 500px)  {
     .description__li {
+        margin-block-start: 0px;
         font-size: 14px;
         line-height: 21px;
+    }
+    .description__li:first-of-type {
+        margin-block-start: 10px;
     }
 }

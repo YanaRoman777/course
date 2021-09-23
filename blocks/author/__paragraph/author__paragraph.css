@@ -36,6 +36,13 @@
         line-height: 28px;
     }
 }
+
+@media all and (max-width: 1000px)  {    
+    .author__paragraph:first-of-type {
+        margin-block-start: 40px;
+    }
+}
+
 @media all and (max-width: 800px)  {
     .author__paragraph{
         font-size: 18px;
@@ -47,5 +54,9 @@
     .author__paragraph{
         font-size: 14px;
         line-height: 21px;
+        margin-block-start: 20px;
+    } 
+    .author__paragraph:first-of-type {
+        margin-block-start: 20px;
     }
 }

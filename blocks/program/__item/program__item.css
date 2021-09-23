@@ -3,6 +3,7 @@
     grid-template-rows:  100px 1fr 100px;
     position: relative;
     max-width: 600px;
+    width: 100%;
     min-height: 350px;
     box-shadow: 2px 2px 8px rgba(124, 119, 41, 0.8);
     border-radius: 20px;
@@ -13,6 +14,26 @@
     align-content: end;
 }
 .program__item:last-of-type {
-    grid-template-rows: 1fr;
+    grid-template-rows: min-content 1fr;
     height: 100%;
+    align-content:center;
+    gap: 50px;
+    grid-area: item9;
+    min-height: 250px;
+}
+@media all and (max-width: 1200px)  {
+    .program__item{
+        grid-template-rows:  90px 1fr 100px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .program__item{
+        grid-template-rows: max-content 1fr max-content;
+        min-height: 200px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .program__item{
+    }
 }

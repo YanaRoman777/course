@@ -2,3 +2,8 @@
     width: 80px;
     z-index: 2;
 }
+@media all and (max-width: 800px)  {
+    .cards__img {
+        width: 50px;
+    }
+}

@@ -8,9 +8,31 @@
     grid-template-columns: 1fr;
     grid-template-rows: min-content max-content;
     color: #fff;
-    padding: 60px 100px;
+    padding: 60px 120px;
     box-sizing: border-box;
     justify-content: center;
     justify-items: center;
     align-self: center;
+}
+
+@media all and (max-width: 1500px)  {
+    .quote {
+        padding: 40px 90px;
+    }
+}
+@media all and (max-width: 1200px)  {
+    .quote {
+        padding: 40px 60px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .quote {
+        padding: 40px;
+    }
+}
+
+@media all and (max-width: 500px)  {
+    .quote {
+        padding: 20px 20px;
+    }
 }

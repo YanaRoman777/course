@@ -13,20 +13,35 @@
 }
 @media all and (max-width: 1200px)  {
     .author__img {
-        font-size: 20px;
-        line-height: 28px;
+        width: 600px;
+        top: 100px;
     }
 }
-@media all and (max-width: 800px)  {
+
+@media all and (max-width: 1000px)  {
     .author__img {
-        font-size: 18px;
-        line-height: 24px;
+        width: 500px;
+    }
+}
+@media all and (max-width: 900px)  {
+    .author__img {
+        width: 400px;
+        right: -10px;
+        top: 150px;
+    }
+}
+
+@media all and (max-width: 700px)  {
+    .author__img {
+        margin: auto;
+        top: 70px;
+        left: 0%;
     }
 }
 
 @media all and (max-width: 500px)  {
     .author__img {
-        font-size: 14px;
-        line-height: 21px;
+        width: 300px;
+        top: 50px;
     }
 }

@@ -25,11 +25,13 @@
 @media all and (max-width: 800px)  {
     .program__number{
         font-size: 100px;
+        top: -20px;
     }
 }
 
 @media all and (max-width: 500px)  {
     .program__number{
-        font-size: 60px;
+        top: -20px;
+        font-size: 80px;
     }
 }

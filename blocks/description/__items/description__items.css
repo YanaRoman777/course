@@ -3,3 +3,13 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 }
+
+@media all and (max-width: 800px)  {
+    .description__items {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, max-content);
+        justify-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+}

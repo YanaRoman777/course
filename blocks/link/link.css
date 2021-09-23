@@ -32,5 +32,12 @@
     .link {
         font-size: 14px;
         line-height: 17px;
+        margin-right: 0px;
+    }
+    .block_links .link {
+        margin-right: 20px;
+    }
+    .block_links .link:last-of-type {
+        margin-right: 0px;
     }
 }

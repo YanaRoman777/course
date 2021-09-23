@@ -1,6 +1,9 @@
 .footer {
     display: grid;
     grid-template-columns: 45% 45%;
+    grid-template-areas: 
+    "item1 item2";
+    gap: 10px;
     background: #240000;
     color: #fff;
     padding: 40px 120px;
@@ -27,6 +30,10 @@
 
 @media all and (max-width: 500px)  {
     .footer {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "item2"
+        "item1";
         margin-top: 0px;
         padding: 20px;
         justify-content: center;

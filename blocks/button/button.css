@@ -1,5 +1,6 @@
 .button {
-    width: 369px;
+    max-width: 369px;
+    width: 100%;
     height: 54px;
     border: none;
     border-radius: 30px;
@@ -19,14 +20,21 @@
 }
 
 .button:hover {
-    width: 373px;
-    height: 56px;
     border: none;
     background-color: #fcbc26;
-    font-size: 18px;
-    line-height: 24px;
     cursor:pointer;
 }
+
 .footer__form .button {
-    width: 100%;
+    max-width: 100%;
+}
+
+@media all and (max-width: 500px)  {
+    .button {
+        max-width: 291px;
+        height: 37px;
+        padding-top: 5px;
+        font-size: 16px;
+        line-height: 22px;
+    }
 }

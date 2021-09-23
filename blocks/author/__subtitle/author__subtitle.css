@@ -25,6 +25,7 @@
     .author__subtitle{
         font-size: 18px;
         line-height: 24px;
+        margin-block-start: 0px;
     }
 }
 

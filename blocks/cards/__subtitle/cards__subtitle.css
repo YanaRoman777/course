@@ -28,6 +28,12 @@
     }
 }
 
+@media all and (max-width: 600px)  {
+    .cards__subtitle{
+        min-height: 30px;
+    }
+}
+
 @media all and (max-width: 500px)  {
     .cards__subtitle{
         max-width: 100%;

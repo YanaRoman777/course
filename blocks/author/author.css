@@ -24,6 +24,7 @@
 
 @media all and (max-width: 1200px)  {
     .author {
+        grid-template-rows: min-content max-content max-content max-content;
         padding: 40px 60px;
     }
 }
@@ -36,6 +37,7 @@
 
 @media all and (max-width: 500px)  {
     .author {
-        padding: 20px 20px 10px;
+        padding: 20px;
+        gap: 10px;
     }
 }

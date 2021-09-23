@@ -7,7 +7,6 @@
     font-size: 22px;
     line-height: 25px;
     color: #240000;
-    min-height: 121px;
 }
 
 .program__paragraph  span {
@@ -16,8 +15,14 @@
     font-weight: bold;
 }
 .program__item:last-of-type .program__paragraph {
-    align-self: center;
+    align-self: start;
     font-weight: bold;
+}
+.program__item:last-of-type .program__paragraph span {
+    color: #fcb000;
+    text-transform:none;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 @media all and (max-width: 1500px)  {

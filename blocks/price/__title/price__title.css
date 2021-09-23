@@ -31,14 +31,26 @@
         line-height: 15px;
     }
 }
+
+@media all and (max-width: 1200px)  {
+    .price__title {
+        min-height: 115px;
+    }
+}
 @media all and (max-width: 900px)  {
     .price__title {
         font-size: 25px;
         line-height: 24px;
+        min-height: 70px;
     }
     .price__title span {
         font-size: 18px;
         line-height: 12px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .price__title {
+        min-height: 40px;
     }
 }
 

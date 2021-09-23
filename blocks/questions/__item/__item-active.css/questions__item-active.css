@@ -1,0 +1,7 @@
+.questions__item-active .questions__paragraph {
+    display: inline-block;
+}
+.questions__item-active .questions__button {
+    background: url(../../../../images/Path_up.svg) center no-repeat;
+    background-size:cover;
+}

@@ -1,6 +1,7 @@
 .footer__form {
     justify-self: center;
     display: grid;
+    grid-area: item2;
     justify-items: end;
     width: 100%;
 }
