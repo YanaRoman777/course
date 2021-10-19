@@ -12,6 +12,11 @@
     width: 100%;
 }
 
+.footer_thanks .footer__paragraph {
+    color: #240000;
+    text-align: center;
+}
+
 @media all and (max-width: 800px)  {
     .footer__paragraph{
         font-size: 17px;
@@ -29,5 +34,9 @@
     }
     .footer__paragraph:last-of-type  {
         margin-block-end: 20px;
+    }
+    .footer_thanks .footer__paragraph {
+        margin-block-end: 0px;
+        margin-block-start: 0px;
     }
 }

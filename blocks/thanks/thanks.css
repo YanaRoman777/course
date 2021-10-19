@@ -1,0 +1,14 @@
+.thanks {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 40px 40px;
+    justify-content: center;
+    justify-items: center;
+    align-items: end;
+    align-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    height: 100%;
+
+}

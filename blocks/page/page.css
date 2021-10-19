@@ -7,3 +7,12 @@
   color: #000;
   max-width: 1920px;
 }
+.page_thanks {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row: 1fr 30vh;
+  height: 100vh;
+  max-width: 100%;
+  background: linear-gradient(
+  140deg, rgba(90, 35, 44, 0.4) 2%, rgba(210, 188, 192, .05) 99%);
+}

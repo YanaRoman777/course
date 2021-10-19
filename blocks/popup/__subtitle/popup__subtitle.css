@@ -1,0 +1,18 @@
+.popup__subtitle {
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #240000;
+}
+
+@media all and (max-width: 640px) {
+    .popup__subtitle  {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

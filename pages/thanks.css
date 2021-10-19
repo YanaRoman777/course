@@ -1,0 +1,9 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/thanks/thanks.css);
+@import url(../blocks/thanks/__title/thanks__title.css);
+@import url(../blocks/thanks/__link/thanks__link.css);
+@import url(../blocks/icon/icon.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__paragraph/footer__paragraph.css);

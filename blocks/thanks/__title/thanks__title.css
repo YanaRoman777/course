@@ -1,0 +1,26 @@
+.thanks__title {
+    margin-block-start:50px;
+    margin-block-end: 50px;
+    font-size: 35px;
+    line-height: 45px;
+    color: #592525;
+}
+
+@media all and (max-width: 1500px)  {
+    .thanks__title{
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
+@media all and (max-width: 1200px)  {
+    .thanks__title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+@media all and (max-width: 800px)  {
+    .thanks__title{
+        font-size: 22px;
+        line-height: 25px;
+    }
+}
