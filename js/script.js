@@ -1,8 +1,10 @@
 const questionsButton = document.querySelectorAll('.questions__button');
 const questionsParagraph = document.querySelector('.questions__paragraph');
-const formElement = document.querySelector('.form');
+const formElement = document.querySelector('.form_consultation');
 const formAdd = document.querySelector('#form-add');
+const formAddfooter = document.querySelector('#form-add-footer');
 const buttonElement = document.querySelector('.form__submit');
+const buttonElementfooter  = formAddfooter.querySelector('.form__submit');
 
 // функция открытия/закрытия ответа
 function activeParagraph () {
@@ -13,8 +15,11 @@ Array.from(document.querySelectorAll(".questions__item")).forEach(e=>{e.addEvent
   let e=this.querySelector(".questions__paragraph");
   e.style.maxHeight?e.style.maxHeight=null:e.style.maxHeight=e.scrollHeight+"px"}))});
 // функция очистки формы 
-function resetFormAdd(formAdd) {
+function resetFormAdd() {
   formElement.reset();
+}
+function resetFormAddfooter() {
+  formAddfooter.reset();
 }
 
 
@@ -23,6 +28,14 @@ const submitEditProfileForm = evt => {
   evt.preventDefault();
   buttonElement.setAttribute('disabled', true);
   buttonElement.classList.add('.form__submit_inactive');
-  resetFormAdd();
+  resetFormAdd(formAdd);
+}
+
+const submitEditProfileFormFooter = evt => {
+  evt.preventDefault();
+  buttonElementfooter.setAttribute('disabled', true);
+  buttonElementfooter.classList.add('.form__submit_inactive');
+  resetFormAddfooter();
 }
 formElement.addEventListener('submit', submitEditProfileForm);
+formAddfooter.addEventListener('submit', submitEditProfileFormFooter);
