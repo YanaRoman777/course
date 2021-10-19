@@ -8,6 +8,7 @@
     font-size: 24px;
     line-height: 32px;
     color: #240000;
+    max-width: 800px;
 }
 
 @media all and (max-width: 1500px)  {

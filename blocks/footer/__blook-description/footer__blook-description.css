@@ -8,5 +8,6 @@
 @media all and (max-width: 500px)  {
     .footer__blook-description {
         grid-template-rows: repeat(2, max-content);
+        justify-self: center;
     }
 }

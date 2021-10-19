@@ -25,7 +25,7 @@
     cursor:pointer;
 }
 
-.footer__form .button {
+.footer__form .button, .form .button {
     max-width: 100%;
 }
 
@@ -36,5 +36,8 @@
         padding-top: 5px;
         font-size: 16px;
         line-height: 22px;
+    }
+    .footer__form .button {
+        max-width: 291px;
     }
 }

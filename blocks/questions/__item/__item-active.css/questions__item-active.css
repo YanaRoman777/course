@@ -2,6 +2,9 @@
     display: inline-block;
 }
 .questions__item-active .questions__button {
-    background: url(../../../../images/Path_up.svg) center no-repeat;
-    background-size:cover;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
 }

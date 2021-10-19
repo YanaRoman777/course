@@ -1,7 +1,7 @@
 .questions__button {
     width: 20px;
     height: 12px;
-    background: url(../../../images/Path_down.png) center no-repeat;
+    background: url(../../../images/Path_down.svg) center no-repeat;
     border: none;
     background-size:20px 12px;
 }
