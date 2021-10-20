@@ -27,6 +27,6 @@
 }
 @media all and (max-width: 500px) {
     .form__input {
-        max-width: 291px;
+        width: 291px;
     }
 }
