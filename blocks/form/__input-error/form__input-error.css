@@ -6,7 +6,13 @@
     font-size: 12px;
     line-height: 15px;
     color: #FF0000;
-    max-width: 291px;
     justify-self: center;
     text-align: center;
+}
+
+
+@media all and (max-width: 500px)  {
+    .form__input-error {
+        max-width: 291px;
+    }
 }
