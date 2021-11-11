@@ -2,8 +2,9 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Формула влияния</title>
+  <link rel="stylesheet" href="./intl-tel-input-17.0.0/build/css/intlTelInput.css">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
@@ -15,7 +16,9 @@
           <a href="#form_consultation" class="navigation__item">записаться</a>
       </nav>
       <h1 class="header__title">Формула  влияния</h1>
-      <h4 class="header__paragraph">Пошаговая программа трансформации коммуникативных навыков о том,<span> как понимать, впечатлять и воздействовать на людей.</span></h4>
+      <p class="header__subtitle">Как убедить кого угодно в чем угодно</p>
+      <p class="header__subtitle">Старт 2 декабря</p>
+      <p class="header__paragraph">Пошаговая программа трансформации коммуникативных навыков о том,<span> как понимать, впечатлять и воздействовать на людей.</span></p>
       <a class="button button_consultation" href="#form_consultation">Узнать подробности</a>
     </header>
     <section class="cards">
@@ -150,7 +153,7 @@
           <p class="program__paragraph"> Блок. <span>Доверие.</span></p>
           <ul class="program__ul">
             <li class="program__li">научитесь с первого контакта входить в доверие,</li>
-            <li class="program__li">ненасильственно критиковать и грамотно реагировать на критику.</li>
+            <li class="program__li">освоите навык ненасильственно критиковать и грамотно реагировать на критику.</li>
           </ul>
           <p class="program__paragraph"><span>Результат: </span> Умение входить в контакт и располагать к себе людей.</p>
         </div>
@@ -159,7 +162,7 @@
           <p class="program__paragraph"> Блок. <span>Гипноприемы.</span></p>
           <ul class="program__ul">
             <li class="program__li">научитесь вкладывать убеждения в обход сознанию,</li>
-            <li class="program__li">вызывать сомнения оппонента в своих словах.</li>
+            <li class="program__li">сможете вызывать сомнения оппонента в своих словах.</li>
           </ul>
           <p class="program__paragraph"><span>Результат: </span> Оппонент соглашается с некоторыми вашими утверждениями, без анализа, а напрямую.</p>
         </div>
@@ -178,12 +181,12 @@
           <ul class="program__ul">
             <li class="program__li">изучите многоходовые словесные приемы НЛП,</li>
             <li class="program__li">научитесь менять самые сложные и закоренелые убеждения,</li>
-            <li class="program__li">анализ истинных ценностей человека по речи и манерам.</li>
+            <li class="program__li">освоите анализ истинных ценностей человека по речи и манерам.</li>
           </ul>
           <p class="program__paragraph"><span>Результат: </span>Умение изменять мнение людей.</p>
         </div>
         <div class="program__item">
-          <p class="program__paragraph">&nbsp;&nbsp;<span>Кроме этого</span> на протяжении всех этих недель мы будем изучать  и отрабатывать техники НЛП паттерны фокусов языка. </p>
+          <p class="program__paragraph">&nbsp;&nbsp;<span>Кроме этого</span> на протяжении всех этих недель мы будем изучать  и отрабатывать техники НЛП, паттерны фокусов языка. </p>
           <p class="program__paragraph">&nbsp;&nbsp;<span>Фокусы языка</span> — это конкретные речевые приемы, которые помогают доносить мысли и менять убеждения таким образом, чтобы их действительно принимали, без конфликтов и отрицания. </p>
         </div>
       </div>
@@ -199,15 +202,16 @@
         <li class="benefits__li">домашние задания проверяются не кураторами, а автором курса,</li>
         <li class="benefits__li">каждое ваше пожелание будет мгновенно принято к рассмотрению.</li>
       </ul>
-    <section class="price" id="price">
+    <div class="price" id="price">
       <div class="price__item">
         <h3 class="price__title"><span>Пакет </span>“Все сам”</h3>
         <ul class="price__ul">
           <li class="price__li">доступ к урокам</li>
           <li class="price__li">допуск к материалам домашних заданий</li>
           <li class="price__li">возможность задавать вопросы на встречах</li>
-          <li class="price__li">сопровождение кураторов по технической части.</li></ul>
-        <button type="button" class="price__button"><strike>27 500</strike>  10 657 руб.</button>
+          <li class="price__li">сопровождение кураторов по технической части.</li>
+          <li class="price__li"><strike>проверка и комментарии к домашним заданиям.</strike></li></ul>
+        <a class="price__button" href="#price-form" id="buttonPackage1"><strike>27 500</strike>  13 750 руб.</a>
       </div>
       <div class="price__item">
         <h3 class="price__title"><span>Пакет </span>“С заботой и сопровождением”</h3>
@@ -217,26 +221,54 @@
           <li class="price__li">возможность задавать вопросы на встречах</li>
           <li class="price__li">сопровождение кураторов по технической части</li>
           <li class="price__li">проверка и комментарии к домашним заданиям.</li></ul>
-        <button type="button" class="price__button"><strike>34 500</strike>  14 897 руб.</button>
+        <a class="price__button" href="#price-form"id="buttonPackage2"><strike>34 500</strike>  17 875 руб.</a>
       </div>
-    </section>
+    </div>
+    <div class="price-form" id="price-form" >
+      <h3 class="price__title" id="titlePackage1"><span>Пакет </span>“Все сам” <span>Цена:</span><strike>27 500</strike>  13 750 руб.</h3>
+      <h3 class="price__title" id="titlePackage2"><span>Пакет </span>“С заботой и сопровождением” <span>Цена:</span><strike>34 500</strike>  17 875 руб.</h3>
+      <form action="#" class="form"  name="form" novalidate>
+        <label class="form__field">
+          <input id="Package" type="hidden" name="Package">
+          <span class="input-title-error form__input-error"></span>
+        </label>
+        <label class="form__field">
+          <input id="input-title" type="text" name="title" class="form__input" placeholder="Ваше имя" minlength="2" maxlength="30" required>
+          <span class="input-title-error form__input-error"></span>
+        </label>
+        <label class="form__field">
+          <input id="phone" type="tel" name="tel" class="form__input" placeholder="(999)999 99 99" minlength="9" maxlength="11"required>
+          <span class="phone-error form__input-error"></span>
+        </label>
+        <button type="submit" class="button form__submit form__submit_inactive" disabled>Оплатить</button>
+      </form>
+    </div>
     </section>
     <section class="author" id="author">
       <h2 class="author__title"><span>Об авторе </span>Дышкант Ольга</span></h2>
       <img class="author__img" src="./images/aftor_img2.png" alt="Ольга">
       <p class="author__subtitle">Ключевые компетенции:</p>
         <ul class="author__ul">
-          <li class="author__li">Избавления от страха, публичных выступлений</li>
-          <li class="author__li">Уверенность, структура и краски речи</li>
-          <li class="author__li">Психология влияния и психология общения</li>
-          <li class="author__li">НЛП и самомотивация</li>
-          <li class="author__li">Продающие вебинары, прямые эфиры</li>
+          <li class="author__li">&#10004; Избавления от страха публичных выступлений;</li>
+          <li class="author__li">&#10004; Уверенность, структура и краски речи;</li>
+          <li class="author__li">&#10004; Психология влияния и психология общения;</li>
+          <li class="author__li">&#10004; НЛП и самомотивация;</li>
+          <li class="author__li">&#10004; Продающие вебинары, прямые эфиры.</li>
         </ul>
-        <div>
-          <p class="author__paragraph">Проведя более 1000 переговоров, я поняла, что убедить можно любого.</p>
-          <p class="author__paragraph">Проведя более 1500 презентаций, я поняла, что если верить в себя, то в тебя и тебе поверят окружающие.</p>
-          <p class="author__paragraph">Выведя целое подразделение Сбербанка с 32 на 2-е место по качеству продаж за 2 месяца, я поняла, что научить говорить убедительно можно любого!</p>
-        </div>
+          <p class="author__paragraph">С 2011 года я занимаюсь переговорами и продажами со сцены.</p>
+          <p class="author__paragraph">За это время:</p>
+          <ul class="author__ul">
+            <li class="author__li">&#10004; Выиграла в номинации "гений продаж", став лучшим продажником в Западно-Сибирском банке Сбербанка России по ХМАО, ЯНАО, Тюменской и Омской области.</li>
+            <li class="author__li">&#10004; Вывела подразделение Сбербанка с 32 на 2-е место по качеству продаж за 2 месяца.</li>
+            <li class="author__li">&#10004; Провела более 1000 переговоров и 1500 презентаций.</li>
+            <li class="author__li">&#10004; Помогла 10-кам топовых инфобизнесменов утроить свой доход.</li>
+          </ul>
+          <p class="author__paragraph">За годы своей практики поняла 3 главные вещи.</p>
+          <ol class="author__ol">
+            <li class="author__li"> Речь один из самых эффективных инструментов достижения любых целей.</li>
+            <li class="author__li"> То, как Вы говорите и отражаете, и выдает ваше внутреннее состояние и наполненность.</li>
+            <li class="author__li"> Убедительная изысканная речь - это не врожденный талант, а навык, который может освоить любой.</li>
+          </ol>
     </section>
     <section id="form_consultation" class="consultation">
       <h2 class="consultation__title">Оставьте свои контактные данные в форме ниже, и наш специалист свяжется с вами.</h2>
@@ -346,18 +378,10 @@
               <span class="input-title-error form__input-error"></span>
             </label>
             <label class="form__field">
-              <input id="input-email" type="email" name="email" class="form__input" placeholder="Ваш e-mail" required>
-              <span class="input-email-error form__input-error"></span>
-            </label>
-            <label class="form__field">
-              <input id="input-tel" type="tel" name="tel" class="form__input" placeholder="Ваш телефон" required>
+              <input id="input-tel" type="tel" name="tel" class="form__input"  minlength="10" maxlength="12" placeholder="Ваш телефон" required>
               <span class="input-tel-error form__input-error"></span>
             </label>
-            <label class="form__field">
-              <input id="input-question" type="text" name="question" class="form__input" placeholder="Ваш вопрос">
-              <span class="input-question-error form__input-error"></span>
-            </label>
-            <button type="submit" class="button form__submit form__submit_inactive" disabled>Cвязаться с консультантом</button>
+            <button type="submit" class="button form__submit form__submit_inactive" disabled>Отправить</button>
           </form>       
         </div>
     </footer>
@@ -369,6 +393,13 @@
       </div>
     </div>
   </div>
+  <script src="./intl-tel-input-17.0.0/build/js/intlTelInput.js"></script>
+  <script>
+    var input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+      // any initialisation options go here
+    });
+  </script>
 <script src="./js/script.js"></script>
 <script src="./js/validate.js"></script>
 </body>

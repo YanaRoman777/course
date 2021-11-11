@@ -20,7 +20,6 @@
 }
 
 .button:hover {
-    border: none;
     background-color: #fcbc26;
     cursor:pointer;
 }

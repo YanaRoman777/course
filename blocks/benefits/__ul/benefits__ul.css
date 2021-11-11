@@ -24,6 +24,7 @@
         margin-block-start: 30px;
         font-size: 22px;
         line-height: 30px;
+        box-sizing: border-box;
     }
 }
 

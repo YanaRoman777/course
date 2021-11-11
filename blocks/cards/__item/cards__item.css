@@ -16,7 +16,7 @@
     justify-content: center;
     justify-self: end;
     border-radius: 25px;
-    border: #240000 2px solid;
+    border: #240000 1px solid;
     display: grid;
     grid-template-columns: 1fr ;
     grid-template-rows: min-content min-content min-content;

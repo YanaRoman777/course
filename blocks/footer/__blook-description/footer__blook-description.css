@@ -1,7 +1,7 @@
 .footer__blook-description {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr repeat(2, max-content) 1fr max-content max-content;
+    grid-template-rows: 1fr repeat(2, min-content) min-content  min-content min-content;
     justify-self: start;
     grid-area: item1;
 }

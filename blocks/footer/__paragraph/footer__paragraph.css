@@ -12,7 +12,7 @@
     width: 100%;
 }
 
-.footer_thanks .footer__paragraph {
+.footer_thanks .footer__paragraph, .footer_error .footer__paragraph {
     color: #240000;
     text-align: center;
 }

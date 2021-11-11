@@ -7,7 +7,7 @@
   color: #000;
   max-width: 1920px;
 }
-.page_thanks {
+.page_thanks, .page_error {
   display: grid;
   grid-template-columns: 1fr;
   grid-row: 1fr 30vh;

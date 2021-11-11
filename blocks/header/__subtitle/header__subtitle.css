@@ -1,0 +1,29 @@
+.header__subtitle {
+    margin-block-start: 0px;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 30px;
+    line-height: 24px;
+    max-width: 785px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.header__subtitle:nth-of-type(2) {
+    font-size: 23px;
+    color: #fcb000;
+}
+
+
+@media all and (max-width: 800px)  {
+    .header__subtitle {
+        font-size: 25px;
+        line-height: 25px;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .header__subtitle:nth-of-type(2) {
+        font-size: 17px;
+    }
+}

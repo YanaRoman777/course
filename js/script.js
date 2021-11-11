@@ -77,3 +77,29 @@ function closePopupOnEsc(evt) {
 
 // закрытие попапа на x
 closeButton.addEventListener('click', () => closePopup());
+
+
+const buttonPackage1 = document.querySelector('#buttonPackage1');
+const buttonPackage2 = document.querySelector('#buttonPackage2');
+const priceForm = document.querySelector('#price-form');
+const titlePackage1 = document.querySelector('#titlePackage1');
+const titlePackage2 = document.querySelector('#titlePackage2');
+const formPackage = document.querySelector('#Package');
+
+
+// Открытие формы оплаты
+function openPriceForm1 () {
+  priceForm.classList.add('price-form_opened');
+  titlePackage1.classList.remove('price-form__title');
+  titlePackage2.classList.add('price-form__title');
+  formPackage.value = '13750';
+};
+
+function openPriceForm2 () {
+  priceForm.classList.add('price-form_opened');
+  titlePackage1.classList.add('price-form__title');
+  titlePackage2.classList.remove('price-form__title');
+  formPackage.value = '17875';
+};
+buttonPackage1.addEventListener('click', () => openPriceForm1());
+buttonPackage2.addEventListener('click', () => openPriceForm2());

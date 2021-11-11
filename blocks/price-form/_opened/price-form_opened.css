@@ -1,0 +1,6 @@
+.price-form_opened {
+    display: grid;
+    animation-name: opacity;
+    animation-duration: 3s;
+    box-sizing: border-box;
+}
