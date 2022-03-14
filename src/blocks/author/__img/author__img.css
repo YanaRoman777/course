@@ -3,7 +3,6 @@
     top: 50px;
     right: 0px;
     width: 800px;
-    z-index: 2;
 }
 @media all and (max-width: 1500px)  {
     .author__img {

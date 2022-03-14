@@ -18,15 +18,15 @@
     text-decoration: none;
 }
 
-.price__button strike {
+.price__button span {
+    text-decoration: line-through;
     display: block;
-    opacity: 0.8;
+    opacity: 0.7;
 }
+
 
 .price__button:hover {
     max-width: 310px;
-    width: 100%;
-    height: 56px;
     border: none;
     background-color: #fcbc26;
     cursor:pointer;

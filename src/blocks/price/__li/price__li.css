@@ -5,6 +5,10 @@
     line-height: 32px;
 }
 
+.price__li span {
+    text-decoration: line-through;
+}
+
 .price__li:last-of-type {
     margin-bottom: 50px;
 }
