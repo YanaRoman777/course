@@ -22,11 +22,36 @@ function resetFormAddfooter() {
   formAddfooter.reset();
 }
 
+// обработка формы заявки
+function ajaxSubmitForm(formName) {
+
+  // находим инпуты формы по data-form атрибуту
+  const targetForm = document.querySelectorAll("[data-form=" + formName + "] input");
+
+  // формируем объект данных формы
+  const formData = new FormData();
+
+  for (let formInputIndex = 0; formInputIndex < targetForm.length; formInputIndex++) {
+    const formInput = targetForm[formInputIndex];
+
+    console.log([formInput.getAttribute("name"), formInput.value]);
+
+    formData.append(formInput.getAttribute("name"), formInput.value);
+    
+  }
+
+  const request = new XMLHttpRequest();
+  request.open("POST", "/submitform.php");
+  request.send(formData);
+
+}
+
 // submit
 const submitEditProfileForm = evt => {
   evt.preventDefault();
   buttonElement.setAttribute('disabled', true);
   buttonElement.classList.add('.form__submit_inactive');
+  ajaxSubmitForm("consultation");
   resetFormAdd(formAdd);
   openPopup();
 }
@@ -35,6 +60,7 @@ const submitEditProfileFormFooter = evt => {
   evt.preventDefault();
   buttonElementfooter.setAttribute('disabled', true);
   buttonElementfooter.classList.add('.form__submit_inactive');
+  ajaxSubmitForm("callback");
   resetFormAddfooter();
   openPopup();
 }

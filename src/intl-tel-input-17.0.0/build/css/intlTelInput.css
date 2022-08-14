@@ -29,7 +29,7 @@
     display: flex;
     align-items: center;
     height: 100%;
-    padding: 0 6px 0 8px; }
+    padding: 0 15px 0 15px; }
   .iti__arrow {
     margin-left: 6px;
     width: 0;
@@ -41,6 +41,7 @@
       border-top: none;
       border-bottom: 4px solid #555; }
   .iti__country-list {
+    color: rgb(46, 46, 46);
     position: absolute;
     z-index: 2;
     list-style: none;
@@ -49,7 +50,7 @@
     margin: 0 0 0 -1px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
     background-color: white;
-    border: 1px solid #CCC;
+    border: 1px solid rgb(196, 83, 83);
     white-space: nowrap;
     max-height: 200px;
     overflow-y: scroll;
@@ -71,7 +72,7 @@
     padding: 5px 10px;
     outline: none; }
   .iti__dial-code {
-    color: #999; }
+    color: rgb(90, 46, 46); }
   .iti__country.iti__highlight {
     background-color: rgba(0, 0, 0, 0.05); }
   .iti__flag-box, .iti__country-name, .iti__dial-code {

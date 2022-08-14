@@ -276,7 +276,8 @@
     </section>
     <section id="form_consultation" class="consultation">
       <h2 class="consultation__title">Оставьте свои контактные данные в форме ниже, и наш специалист свяжется с вами.</h2>
-      <form action="#" class="form form_consultation"  name="form" novalidate>
+      <form action="#" class="form form_consultation" data-form="consultation" novalidate>
+        <input type="hidden" name="act" value="consultation"/>
         <label class="form__field">
           <input id="input-title2" type="text" name="title" class="form__input" placeholder="Ваше имя" minlength="2" maxlength="30" required>
           <span class="input-title2-error form__input-error"></span>
@@ -360,22 +361,26 @@
           <div class="block_links">
             <h2 class="footer__subtitle">Пишите в любой удобный для Вас мессенджер</h2>
             <div>
-              <a class="link link__tg" href="https://teleg.run/Olga_Dyshkant">
+              <a class="link link__tg" href="https://teleg.run/OlgaSigaeva">
                 <img src="./images/tg.svg" alt="Telegram" class="icon"></a>
-              <a class="link link__sc" href="https://www.instagram.com/olga.dyshkant/">
+              <a class="link link__sc" href="https://www.instagram.com/olga.speech.sigaeva/">
                   <img src="./images/instagram.svg" alt="Instagram" class="icon"></a> 
               <a class="link link__ws" href="https://api.whatsapp.com/send?phone=79227683366">
                 <img src="./images/whatsapp.svg" alt="whatsapp" class="icon"></a>
             </div> 
           </div>
-          <p class="footer__paragraph">ИП Сигаева О. И.</p>
-          <p class="footer__paragraph">ИНН 431302049445</p>
-          <p class="footer__paragraph">ОГРНИП 321861700058796</p>
-          <a class="link" href="./offer.pdf">Договор оферты</a> 
+          <!-- <p class="footer__paragraph">ИП Сигаева О. И.</p> -->
+          <p class="footer__paragraph">Olga Sigaeva PR ostalo obrazovanje Novi Sad</p>
+          <!-- <p class="footer__paragraph">ИНН 431302049445</p> -->
+          <p class="footer__paragraph">Vojvidjanskih Brigada 24 stan 13. Novi Sad Srbija</p>
+          <!-- <p class="footer__paragraph">ОГРНИП 321861700058796</p> -->
+          <p class="footer__paragraph">PIB 113150337</p>
+          <a class="link" href="./offer.pdf">Договор оферты</a>
           <a class="link" href="./privacy.pdf">Политика конфиденциальности</a>
         </div>
         <div class="footer__form">
-          <form id="form-add-footer" action="#" class="form form_consultation" name="form" novalidate>
+          <form id="form-add-footer" action="#" class="form form_consultation" data-form="callback" novalidate>
+            <input type="hidden" name="act" value="callback"/>
             <h2 class="footer__subtitle">Закажите обратный звонок</h2>
             <label class="form__field">
               <input id="input-title3" type="text" name="title" class="form__input" placeholder="Ваше имя" minlength="2" maxlength="30" required>
@@ -397,6 +402,49 @@
       </div>
     </div>
   </div>
+  
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '759155755335319');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=759155755335319&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTF6S91DJF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-BTF6S91DJF');
+  </script>
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(89820268, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        ecommerce:"dataLayer"
+    });
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/89820268" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
   <script src="./intl-tel-input-17.0.0/build/js/intlTelInput.js"></script>
   <script>
     var input = document.querySelector("#phone");
@@ -404,7 +452,7 @@
       // any initialisation options go here
     });
   </script>
-<script src="./js/script.js"></script>
-<script src="./js/validate.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/validate.js"></script>
 </body>
 </html>
